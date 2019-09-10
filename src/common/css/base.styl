@@ -1,0 +1,72 @@
+//主要颜色
+main-color=#d72723
+//背景色，快分割色
+bgColor=#f7f8fa
+//辅助色，部分按钮未激活颜色
+btn-disabled=#ffcecd
+//辅助色，部分小图标，文字颜色
+auxiliary-bg=#d3ae77
+//分割线颜色
+divider-color=#f2f2f2
+//辅助色，边框色
+border-color=#E0E0E0
+
+//导航菜单，主要文字颜色
+main-text-color=#242424
+//次重要文字颜色
+secondary-text-color=#8e8f90
+//少数辅助文字颜色
+auxiliary-text-color=#bbb9b9
+
+
+f10 = var(--f10)
+f11 = var(--f11)
+f12 = var(--f12)
+f13 = var(--f13)
+f14 = var(--f14)
+f15 = var(--f15)
+f16 = var(--f16)
+f17 = var(--f17)
+f18 = var(--f18)
+f19 = var(--f19)
+f20 = var(--f20)
+
+::-webkit-input-placeholder {
+  color: #bbb9b9;
+  font-weight: 400;
+}
+:-moz-placeholder {/* Firefox 18- */
+  color: #bbb9b9;
+  font-weight: 400;
+}
+::-moz-placeholder{/* Firefox 19+ */
+  color: #bbb9b9;
+  font-weight: 400;
+}
+:-ms-input-placeholder {
+  color: #bbb9b9;
+  font-weight: 400;
+}
+.cube-checkbox {
+  position: relative;
+  padding: 0 2px 0px 0px;
+  text-align: left;
+  font-size: 100%;
+  color: #291A1C;
+  width: fit-content;
+}
+.cube-checkbox-label {
+  font-size: f13
+}
+.cube-checkbox-ui::before {
+  color: #ccc;
+  display: inline-block;
+  -webkit-transform: scale(1.44);
+  transform: scale(1.44);
+}
+.cube-checkbox_checked .cube-checkbox-ui i {
+  color: main-color;
+  -webkit-transform: scale(1.43);
+  transform: scale(1.43);
+}
+
